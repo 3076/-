@@ -1,0 +1,715 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.imglogo1{
+    vertical-align: middle;
+}
+
+.bar>a{
+    color: #fff;
+}
+
+body {
+    background: #F3F3F3;
+    /* overflow-x: hidden; */
+}
+
+/* 头部样式 */
+.head_box {
+    margin: 0 auto;
+    height: 80px;
+    background: #43BAB8;
+    /*主色调 */
+}
+.head_box1 {
+    margin: 0 auto;
+    height: 100%;
+    width: 1080px;
+    background: #43BAB8;
+    position: relative;
+}
+
+/* 导航条内容 */
+.bar_box{
+    width: 700px;
+    height: 80px;
+    /* background: rgb(124, 124, 123); */
+    position: absolute;
+    top:0px;
+    left: 200px;
+}
+.bar{
+    /* margin: 0 30px; */
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    /* line-height: 18px; */
+    /* background: #000000; */
+    /* border-right: 0.8px solid #fff; */
+    color: #fff;
+    float: left;
+}
+.bar>a{
+    padding: 0 30px;
+    display: inline-block;
+    /* width: 100%; */
+    border-right: 1px solid #fff;
+}
+
+.bar:hover{
+    /* width: 100px;
+    height: 50px; */
+    background: #fff;
+    border-radius: 5px;  
+    
+}
+.bar:hover    b{
+    color: #43BAB8; 
+}
+.bar_box b{
+    color: #fff;
+    font-size: 18px;
+    font-family: "微软简中圆";    
+}
+/* 登录内容 */
+.sign_box{
+    color: #fff;
+    width: 188px;
+    height: 35px;
+    /* margin: 24px 0px; */
+    float: right;
+    padding: 15px 0px;
+    /* background: #646464; */
+}
+.sign_box>a{
+    color: #fff;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+/* <!-- 相对定位 --> */
+.xddy{
+    border-radius: 10px;
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    margin: 0 auto;
+    z-index: 11;
+    background:  rgba(204, 204, 204, 0.4);
+    top: 100px;
+    left: 36%;
+}
+/* 导航条中间 */
+.dhtzj{
+    padding: 5px 50px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+.dhtzj>ul>li>a>b{
+    color: #fff;
+    font-size: 17px;
+    font-family: "微软简中圆";    
+}
+ul>li{
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+.dhtzj>input{
+    height: 46px;
+    width: 300px;
+    margin-top: 2px;
+    border-radius: 6px;
+    color: #000000;
+    font-size: 19px;
+    font-family: "微软雅黑";  
+}
+.dhtzj>a>img{
+   position: absolute;
+   top:42.5px;
+   right: 49px;
+}
+body{
+    background: #F3F3F3
+}
+
+/* <!-- 头部大盒子 --> */
+.topbox {
+    margin: 0 auto;
+    width: 1081px;
+    height: 100px;
+}
+
+/* 头部 */
+.top1 {
+    height: 40px;
+    width: 100%;
+    line-height: 40px
+}
+.top1 a{
+    color: #565656;
+}
+.top1>div {
+    float: left;
+    margin:0 2px;
+}
+/* 左部分 */
+.topl div {
+    line-height: 53px;
+    float: left;
+}
+.top2{
+    /* height: 35px; */
+    margin-top: 14px;
+}
+/* 左部分 */
+.topleft div {
+    line-height: 53px;
+    float: left;
+}
+.top3{
+    height: 60px;
+    width: 1080px;
+    margin: 0 auto;
+    border-top:1px solid #aaa;
+    padding:0 0 7px;
+}
+.Small_box{
+    font-size: 18px;
+    height: 22px;
+    text-align: center;
+    position: relative;
+    top: 21px;
+    padding: 0 25px;
+}
+.top3>div{
+    float: left;
+    height: 62px;
+    
+}
+.top3>div:hover{
+    border-top:1px solid #43BAB8;
+}
+.top3 a{
+    color: #000000;
+}
+.top3 a:hover{
+    color: #43BAB8;
+}
+.padding_line{
+    border-right: 1px solid #DFDFDF
+}
+/* 右部分 */
+.topright {
+    float: right;
+    margin-top: 11px;
+    
+}
+.topright img{
+    position: relative;
+    top: 4px;
+    padding: 0
+}
+.topright>div {
+    float: left;
+    line-height: 20px;
+    margin: 0 5px;
+}
+.topright>div:nth-child(4) {
+    margin: 0 0 0 7px;
+}
+.topright span{ 
+    font-size: 18px;
+}
+.topright a{
+    color: #000000;
+    font-size: 12px;
+}
+/* <!-- 一个中部大盒子 --> */
+.bigbox {
+    width: 1081px;
+    margin: 12px auto 0 auto;
+    padding-top: 28px;
+    border-top: 1px solid #aaa;
+}
+
+.bigbox>div {
+    float: left;
+}
+
+/* <!-- 左边大盒子 --> */
+.leftbox {
+    width: 805px;
+    /* height: 641px; */
+    /* background: #fff; */
+}
+.leftbox>div:nth-child(1){
+    background: #fff;
+}
+/* 盒中图片 */
+.picture {
+    height: 296px;
+    width: 805px;
+    background: rgb(82, 8, 60);
+    position: relative;
+}
+.Absolute{
+    height: 27px;
+    width: 93px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 15px;
+    padding: 6px 0 0 3px;
+    z-index: 99;
+}
+.wordtext {
+    width: 770px;
+    margin: 0 1px 0 20px;
+    padding: 22px 0;
+    border-bottom:1px solid #aaa;
+    text-indent: 2rem;
+    letter-spacing: 1.5px;
+}
+/* 游玩建议 */
+.Visit_advice{
+    width: 805px;
+    background: #fff;
+}
+.advice {
+    width: 770px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.advice>div {
+    float: left;
+    margin-right: 20px;
+}
+
+.xiaobox1 {
+    width: 230px;
+    height: 170px;
+}
+
+.navbox1 {
+    height: 45px;
+    line-height: 23px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #000000;
+    border-right: 1px solid #E5E5E5;
+}
+.navbox1 a{
+    font-size: 14px;
+    color: #656565;
+}
+.navbox2 a{
+    font-size: 14px;
+    color: #656565;
+}
+.navbox3 a{
+    font-size: 14px;
+    color: #656565;
+}
+.navbox4 a{
+    font-size: 14px;
+    color: #656565;
+}
+.navbox2 {
+    height: 45px;
+    line-height: 23px;
+    margin-top: 37px;
+    font-size: 14px;
+    border-right: 1px solid #E5E5E5;
+    color: #000000;
+}
+
+.navbox3 {
+    height: 45px;
+    line-height: 23px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.navbox4 {
+    height: 45px;
+    line-height: 23px;
+    margin-top: 37px;
+    font-size: 14px;
+}
+
+.xiaobox2 {
+    width: 250px;
+    height: 170px;
+}
+
+.xiaobox3 {
+    width: 230px;
+    height: 170px;
+}
+
+/* <!-- 左边大盒子下半部分 --> */
+.leftbox2 {
+    width: 805px;
+    margin-top: 20px;
+    background: #fff;
+}
+.left{
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+/* <!-- 评论框头部 --> */
+.pltop {
+    height: 56px;
+    margin: 0 auto;
+    line-height: 56px;
+    text-align: center;
+}
+.pltop>div{
+    float: left;
+    height: 56px;
+    width: 50%;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.pltop>div:hover {
+    color: #43BAB8;
+    border-bottom: 1px solid #43BAB8
+}
+/* 评论框 */
+.kuang{
+    width: 632px;
+    height: 96px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.kuang>textarea {
+    width: 632px;
+    height: 92px;
+}
+/* <!-- 假相机 --> */
+.upload{
+    height: 25px;
+    width: 635px;
+    margin: 0 auto;
+    line-height: 25px
+}
+.upload>div{
+    float: right;
+}
+.upload img{
+    vertical-align: middle;
+}
+/* 按钮 */
+button{
+    width: 75px;
+    height: 36px;
+    margin: 10px 87px;
+    background: #43BAB8;
+    border: none;
+    font-size: 15px;
+    font-family: "宋体";
+    color: #fff;
+}
+/* 评论区 */
+/* 评论 */
+
+.section{
+    padding-top: 10px;
+    width: 770px;
+    margin: 12px auto 0px;
+    /* background: #fff; */
+}
+/* 让内容浮动 */
+
+.section>.Head_portrait{
+    margin: 5px 4px;
+    float: left;
+}
+/* 头像 */
+.Head_portrait{
+    width: 55px;
+    height: 75px;
+}
+.Head_portrait a{
+    font-size: 13px;
+    color: #F8C768;
+}/* 头像 */
+.portrait{
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    border-radius: 35px;
+}
+/* 评论内容 */
+.nr{
+    width: 633px;
+    margin: 0 auto;
+    border-bottom: 1px solid #aaa;
+}
+/* <!-- 评论区发表的图片 --> */
+.userpicture{
+    width: 633px;
+    height: 122px;
+    margin: 10px auto;  
+}
+.userpicture>.u_1{
+    width: 200px;
+    height: 122px;
+    float: left;
+}
+.img2{
+    margin: 0 16px;
+}
+/* 用户回复 */
+.userreply{
+    /* width: 633px; */
+    padding: 5px 0px;
+    margin: 0px auto;
+    text-align: right;
+    font-size: 14px;
+}
+ /* <!-- 底下页面选项 --> */
+ .ymxx{
+     margin-top: 20px;
+    height: 30px;
+     width: 805px;
+     background: #fff;
+ }
+.xx{
+    height: 30px;
+    width:  657px;
+    float: right;
+   background: #fff;
+}
+.xx a{
+    color: black;
+    text-decoration: none;
+}
+.xx>div{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 1px 8px 0 8px;
+    text-align: center;
+    line-height: 25px
+}
+.xx>div:nth-child(1){
+    width: 50px;
+    margin-left: 0;
+}
+.xx>div:nth-child(2){
+    width: 25px;
+    margin: 0 7px;
+    border:  1px solid rgb(103, 186, 255);
+}
+.xx>div:nth-child(9){
+    width: 50px;
+    margin: 0 10px;
+}
+.xx>div:nth-child(10){
+    width: 25px;
+    margin: 0 -4px;
+}
+.xx>div:nth-child(11){
+    width: 25px;
+    margin: -2px 3px;
+}
+.xx>div:nth-child(12){
+    width: 65px;
+    margin: 0;
+}
+.xx>div:nth-child(13){
+    width: 40px;
+    background: #43BAB8;
+    margin: 0 0 0 4px;
+}
+input{
+    border: #43BAB8 1px solid;
+    width: 25px;
+    height: 25px;
+}
+/* <!-- 右边大盒子 --> */
+.rightbox {
+    width: 276px;
+    height: 640px;
+    }
+/* 右边盒子尺寸 */
+.yh{
+    width: 252px;
+    height: 640px;
+    float: right;
+}
+/* <!-- 优惠酒店推荐 --> */
+.text1{   
+    height: 27px;
+}
+.text1>span{
+    font-size: 20px;
+}
+.text1>a{
+    font-size: 10px;
+    color: #5A5A5A;
+    margin-left: 20px;
+}
+.xdhl{
+    width: 251px;
+    height: 41px;
+    margin-top: 15px;
+    border-top:1px solid #aaaaaa;
+}
+
+.xdhl>div{
+    height: 41px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 41px;
+    /* background: rgb(253, 114, 114); */
+    /* transition: 0.5s all ease; */
+}
+.xdhl>div:hover{
+    color: #43BAB8;
+    border-top: 1px solid #43BAB8;
+    cursor: pointer;
+    transform: translateY(-1%);
+}
+.grids{
+    width: 250px;
+    height: 540px;
+}
+.grids>div {
+    height: 175px;
+    width: 250px;
+    margin-top: 10px;
+}
+.box2{
+    width: 250px;
+    height: 120px;
+}
+.box3{
+    height: 50px;
+}
+/* 图文部分 */
+.travel{
+    height: 170px;
+    width: 252px;
+    margin-top: 10px;
+    margin: 0 auto;
+    background: #fff;
+}
+.hotelimg{
+    width: 250px;
+    height: 120px;
+    overflow: hidden;
+}
+/* 金钱部分 */
+.r_b_t_left>a{
+    font-size: 14px;
+    color: #000000;
+    font-family: "微软雅黑";
+    margin: 5px 0px 0px 9px;
+}
+.r_b_t_left span{
+    font-size: 10px;
+    color: #000000;
+    font-family: "微软雅黑";
+}
+.r_b_t_left{
+    display: inline;
+    line-height: 20px;
+}
+.r_b_t_right{
+    padding: 0px;
+    margin: -13px 10px 0 0;
+    float: right;
+}
+.r_b_t_right>span:nth-child(1){
+    color: #FCAB1E;
+    font-size: 10px;
+}
+.r_b_t_right>span:nth-child(2){
+    color: #FCAB1E;
+    font-size: 20px;
+}
+.r_b_t_right>span:nth-child(3){
+    color: #FCAB1E;
+    font-size: 10px;
+}
+/* 右边盒子2 */
+.rightbox2{
+    height: 415px;
+    width: 276px;
+    margin-top: 25px;
+}
+.food{
+    height: 35px;
+    width: 255px;
+    float: right;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.graphic{
+    width: 255px;
+    height: 118px;
+    margin: 5px 0;
+    background:#fff;
+    float: right;
+    /* margin: 0 auto; */
+}
+.graphic>div{
+    float: left;
+}
+/* 底部脚注细节 */
+
+.trademark {
+    width: 100%;
+    margin-top: 44px;
+    height: 58%;
+    padding-top: 20px;
+    text-align: center;
+    background: #43BAB8;
+}
+.footnote_1{
+    width: 665px;
+    /* background: #030303; */
+    margin: 0 auto;
+}
+.footnote_1>div{
+    float: left;
+    width: 66px;
+    margin: 0px 50px;
+    /* background: #707070; */
+}
+.footnote_1>div>b{
+    color: #000000;
+    font-size: 16px;
+    font-family: "黑体";
+    line-height: 30px;
+}
+.footnote_1>div>span{
+    color: #000000;
+    font-size: 15px;
+    font-family: "黑体";
+    line-height: 25px;
+}
+.footnote_2{
+    color: #2A807F;
+    font-size: 8px;
+    line-height: 20px;
+    text-align: center;
+    width: 665px;
+    height: 100px;
+    /* background: #000000; */
+    margin: 25px auto 0px;
+}

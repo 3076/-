@@ -1,0 +1,42 @@
+/* <!-- 相对定位 --> */
+.xddy_1{
+    border-radius: 10px;
+    position: absolute;
+    height: 77px;
+    width: 418px;
+    margin: 0 auto;
+    z-index: 11;
+    background:  rgba(204, 204, 204, 0.4);
+    top: 100px;
+    left: calc( 50% - 200px );
+}
+
+
+
+
+/* 六宫格样式 */
+.star_1{
+    width: 251px;
+    height: 220px;
+    float: left;
+    margin: 5px 10px 5px 0px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* 出游时间选项 */
+.time_box{
+    margin-top: 20px;
+    height: 55px;
+    width: 100%;
+    /* background: #43BAB8; */
+}
+
+
+/* 游记推荐样式 */
+.recommend{
+    margin-top: 37px;
+    width: 270px;
+}

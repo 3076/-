@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/details.css">
+    <link rel="stylesheet" href="./css/swiper-4.2.6.min.css">
+    <script src="./js/swiper-4.2.6.min.js"></script>
+
+    <style>
+        .swiper-pagination-bullet {
+            width: 23px;
+            height: 23px;
+            border-radius: 50%;
+            display: inline-block;
+            /* opacity: .5; */
+            cursor: pointer;
+            /* border: 2px solid #979797; */
+            transition: all .05s ease-in;
+        }
+
+        .ubolt-black {
+            background: #0E0E0E;
+        }
+
+        .ubolt-white {
+            background: #D8D8D8;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 导航条 -->
+    <div class="head_box">
+        <div class="head_box1">
+            <!-- 导航条 -->
+            <img src="./imgs/index_img/logo.png" alt="" style="padding:10px 5px 10px 0px">
+            <img src="./imgs/index_img/logotext.png" alt="" style="padding:20px 4px;display: inline;">
+
+            <!-- 导航条内容 -->
+            <div class="bar_box">
+                <div class="bar">
+                    <a href=""> <b>首页</b> </a>
+
+                </div>
+
+
+                <div class="bar">
+                    <a href=""> <b>目的地</b> </a>
+
+                </div>
+
+                <div class="bar">
+                    <a href=""><b>游记攻略</b> </a>
+
+                </div>
+
+                <div class="bar">
+                    <a href=""> <b>酒店</b> </a>
+
+                </div>
+
+                <div class="bar">
+                    <a href="" style="border: none;"> <b>票务预订</b> </a>
+
+                </div>
+
+            </div>
+
+            <!-- 登录内容 -->
+            <div class="sign_box">
+
+                <a href=""><img src="./imgs/index_img/QQ.png" alt=""></a>
+                <a href=""><img src="./imgs/index_img/weixin.png" alt=""></a>
+                <a href=""><img src="./imgs/index_img/weibo.png" alt=""></a>
+
+                <a href="">登录</a>
+                |
+                <a href="">注册</a>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both"></div><!-- 清除浮动 -->
+    <!-- 轮播图 -->
+    <div class="Rotation_box">
+
+        <div class="swiper-container" id="s_c1">
+            <div class="swiper-wrapper  viewbox">
+                <div class="swiper-slide  "><img src="./imgs/index_img/轮播图_1.png" height="100%" width="100%" alt="">
+                </div>
+                <div class="swiper-slide"><img src="./imgs/index_img/轮播图_1.png" height="100%" width="100%" alt=""></div>
+                <div class="swiper-slide"><img src="./imgs/index_img/轮播图_1.png" height="100%" width="100%" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev swiper-button-white"></div>
+            <!--左箭头-->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <!--右箭头-->
+        </div>
+
+    </div>
+    <div class="position_box">
+        <!-- 相对定位 -->
+
+        <!-- 导航条中间 -->
+        <div class="xddy">
+            <div class="dhtzj">
+                <ul>
+                    <li>
+                        <a href="">
+                            <b> 全部</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <b>目的地</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <b>酒店</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <b>攻略</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <b> 机票</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear:both"></div>
+            <div class="inp_box">
+                <input type="text">
+                <a href="">
+                    <img src="./imgs/index_img/搜索.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both"></div><!-- 清除浮动 -->
+    <!-- 1440*523 -->
+    <!-- 轮播图尺寸 -->
+
+    <!-- 内容中间 -->
+    <div class="middle_box">
+
+        <!-- 左边头部选项 -->
+        <div class="option_box">
+            <div class="left_op">
+                <div class="title_box">
+                    <span>热门目的地推荐</span>
+                    &nbsp;
+                    <a href="">更多&nbsp;></a>
+                </div>
+                <div class="abroad_box">
+                    <div>全部</div>
+                    <div>国内</div>
+                    <div>国外</div>
+                </div>
+            </div>
+            <div class="right_op">
+                <div class="title_box_1">
+                    <span>特价酒店推荐</span>
+                    &nbsp;
+                    <a href="">更多&nbsp;></a>
+                </div>
+                <div class="abroad_box_1">
+                    <div>三亚</div>
+                    <div>厦门</div>
+                    <div>澳门</div>
+                    <div>香港</div>
+                </div>
+            </div>
+        </div>
+        <!-- 左边内容 -->
+        <!-- 六宫格div -->
+        <div class="left_box">
+            <!-- 六宫格轮播图 -->
+            <div style="height:400px">
+                <div class="swiper-container s_c">
+                    <div class="swiper-wrapper  viewbox">
+                        <div class="swiper-slide  ">
+                            <div class="star">
+                                <img src="./imgs/index_img/东京塔.gif" alt="">
+                                <div class="title">
+                                    <span>日本东京塔</span>
+
+                                    <div class="text_box">
+                                        <span>东京塔正式名称为日本电波塔，又称东京铁塔 ，位于日本东京都港区发芝公园，是一座是以巴黎埃菲尔铁塔
+                                            为范本而建造的红白色铁塔。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/丽江.jpeg" alt="">
+                                <div class="title">
+                                    <span>云南丽江古城</span>
+                                    <div class="text_box">
+                                        <span>丽江古城内的街道依山傍水修建，以红色角砾岩铺就，有四方街、木府、五凤楼、黑龙潭、文昌宫、王丕震纪念馆、雪山书院、王家庄基督教堂等景点。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/台北中正纪念堂.jpg" alt="">
+                                <div class="title">
+                                    <span>台北中正纪念堂</span>
+                                    <div class="text_box">
+                                        <span>纪念楼造型仿北京天坛之顶、埃及金字塔之体，是中国宫殿式建筑，整体建筑则以蓝、白二色搭配相和，有着自由、平等的寓意。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/意大利五渔村.jpg" alt="">
+                                <div class="title">
+                                    <span>意大利五渔村</span>
+                                    <div class="text_box">
+                                        <span>五渔村位于意大利利古里亚大区(Liguria)拉斯佩齐亚省海沿岸地区。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/迪拜港.jpeg" alt="">
+                                <div class="title">
+                                    <span>迪拜港</span>
+                                    <div class="text_box">
+                                        <span>迪拜港位于阿联酋（全称：阿拉伯联合酋长国THE UNITED ARAB EMIRATES）东北沿海，濒临波斯湾的南侧。又名拉希德港（MINA
+                                            RASHID）。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/马尔代夫.jpg" alt="">
+                                <div class="title">
+                                    <span>马尔代夫卡尼岛</span>
+                                    <div class="text_box">
+                                        <span>卡尼岛位于被称作“地球上的香格里拉”的马尔代夫，拥有2000多个小珊瑚岛，卡尼岛距首都马累20公里。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="swiper-slide">
+
+                            <div class="star">
+                                <img src="./imgs/index_img/东京塔.gif" alt="">
+                                <div class="title">
+                                    <span>日本东京塔</span>
+
+                                    <div class="text_box">
+                                        <span>东京塔正式名称为日本电波塔，又称东京铁塔 ，位于日本东京都港区发芝公园，是一座是以巴黎埃菲尔铁塔
+                                            为范本而建造的红白色铁塔。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/丽江.jpeg" alt="">
+                                <div class="title">
+                                    <span>云南丽江古城</span>
+                                    <div class="text_box">
+                                        <span>丽江古城内的街道依山傍水修建，以红色角砾岩铺就，有四方街、木府、五凤楼、黑龙潭、文昌宫、王丕震纪念馆、雪山书院、王家庄基督教堂等景点。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/台北中正纪念堂.jpg" alt="">
+                                <div class="title">
+                                    <span>台北中正纪念堂</span>
+                                    <div class="text_box">
+                                        <span>纪念楼造型仿北京天坛之顶、埃及金字塔之体，是中国宫殿式建筑，整体建筑则以蓝、白二色搭配相和，有着自由、平等的寓意。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/意大利五渔村.jpg" alt="">
+                                <div class="title">
+                                    <span>意大利五渔村</span>
+                                    <div class="text_box">
+                                        <span>五渔村位于意大利利古里亚大区(Liguria)拉斯佩齐亚省海沿岸地区。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/迪拜港.jpeg" alt="">
+                                <div class="title">
+                                    <span>迪拜港</span>
+                                    <div class="text_box">
+                                        <span>迪拜港位于阿联酋（全称：阿拉伯联合酋长国THE UNITED ARAB EMIRATES）东北沿海，濒临波斯湾的南侧。又名拉希德港（MINA
+                                            RASHID）。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/马尔代夫.jpg" alt="">
+                                <div class="title">
+                                    <span>马尔代夫卡尼岛</span>
+                                    <div class="text_box">
+                                        <span>卡尼岛位于被称作“地球上的香格里拉”的马尔代夫，拥有2000多个小珊瑚岛，卡尼岛距首都马累20公里。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="star">
+                                <img src="./imgs/index_img/东京塔.gif" alt="">
+                                <div class="title">
+                                    <span>日本东京塔</span>
+
+                                    <div class="text_box">
+                                        <span>东京塔正式名称为日本电波塔，又称东京铁塔 ，位于日本东京都港区发芝公园，是一座是以巴黎埃菲尔铁塔
+                                            为范本而建造的红白色铁塔。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/丽江.jpeg" alt="">
+                                <div class="title">
+                                    <span>云南丽江古城</span>
+                                    <div class="text_box">
+                                        <span>丽江古城内的街道依山傍水修建，以红色角砾岩铺就，有四方街、木府、五凤楼、黑龙潭、文昌宫、王丕震纪念馆、雪山书院、王家庄基督教堂等景点。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/台北中正纪念堂.jpg" alt="">
+                                <div class="title">
+                                    <span>台北中正纪念堂</span>
+                                    <div class="text_box">
+                                        <span>纪念楼造型仿北京天坛之顶、埃及金字塔之体，是中国宫殿式建筑，整体建筑则以蓝、白二色搭配相和，有着自由、平等的寓意。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/意大利五渔村.jpg" alt="">
+                                <div class="title">
+                                    <span>意大利五渔村</span>
+                                    <div class="text_box">
+                                        <span>五渔村位于意大利利古里亚大区(Liguria)拉斯佩齐亚省海沿岸地区。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/迪拜港.jpeg" alt="">
+                                <div class="title">
+                                    <span>迪拜港</span>
+                                    <div class="text_box">
+                                        <span>迪拜港位于阿联酋（全称：阿拉伯联合酋长国THE UNITED ARAB EMIRATES）东北沿海，濒临波斯湾的南侧。又名拉希德港（MINA
+                                            RASHID）。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="star">
+                                <img src="./imgs/index_img/马尔代夫.jpg" alt="">
+                                <div class="title">
+                                    <span>马尔代夫卡尼岛</span>
+                                    <div class="text_box">
+                                        <span>卡尼岛位于被称作“地球上的香格里拉”的马尔代夫，拥有2000多个小珊瑚岛，卡尼岛距首都马累20公里。
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+            <!-- 如果需要导航按钮 -->
+
+
+            <div style="clear: both"></div>
+            <!-- 六宫格下方选项 -->
+            <!-- <div class="op_c">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> -->
+
+
+            <div class="left_op_1">
+                <div class="title_box">
+                    <span>游记分享</span>
+                    &nbsp;
+                    <a href="">更多&nbsp;></a>
+                </div>
+                <div class="abroad_box">
+                    <div>热门排行</div>
+                    <div>时间排行</div>
+                </div>
+            </div>
+
+            <!-- 内容下部 -->
+            <div class="bottom_box">
+                <div>
+                    <div class="img_b">
+                        <img src="./imgs/index_img/游记分享_1.png" alt="">
+                    </div>
+                    <div class="word">
+                        <div>
+                            <span>一女,坦桑尼亚,短裙挑战乞力马扎罗</span>
+                        </div>
+                        <div>
+                            <a href="">
+                                一个任性鬼的自述犯罪过程: 2014年4月新疆2014年9月雨丽 ，2014年 10月韩国
+                                2014年11月尼泊尔 ,2015年1月 柬埔寨,2015年2月坦桑尼亚。 “杨你真是够了。”，“我也觉得我真是够了” “60..
+                            </a>
+                        </div>
+
+                        <div class="word_bottom_box">
+                            <div>
+                                <img src="./imgs/index_img/头像.png" alt="">
+                                <span>做梦传说</span>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/浏览.png" alt="">
+                                    <span>95624</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/评论.png" alt="">
+                                    <span>3241</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/时间.png" alt="">
+                                    <span>2019.01.02</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./imgs/index_img/赞.png" alt="">
+                            </div>
+
+                            <div>
+                                <span>52143</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img_b">
+                        <img src="./imgs/index_img/游记分享_2.png" alt="">
+                    </div>
+                    <div class="word">
+                        <div>
+                            <span>漫游台湾,除了吃吃喝喝我们还能玩点啥</span>
+                        </div>
+                        <div>
+                            <a href="">
+                                了两三次台湾最大的感受这是一 座多元又积极的城市。虽然一些建筑外表老旧
+                                ，但无障碍设施确是完善;机车虽多,大多也能守规有秩序。文艺更是遍布寻常巷陌，换乘地铁,走在街道,商场，总是...
+                            </a>
+                        </div>
+
+                        <div class="word_bottom_box">
+                            <div>
+                                <img src="./imgs/index_img/头像_5.png" alt="">
+                                <span>游弋小猫</span>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/浏览.png" alt="">
+                                    <span>74624</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/评论.png" alt="">
+                                    <span>3241</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/时间.png" alt="">
+                                    <span>2019.01.02</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./imgs/index_img/赞.png" alt="">
+                            </div>
+
+                            <div>
+                                <span>42645</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img_b">
+                        <img src="./imgs/index_img/游记分享_3.png" alt="">
+                    </div>
+                    <div class="word">
+                        <div>
+                            <span>寻找活着的天方夜谭,三毛的撒哈拉,人间最后的净土</span>
+                        </div>
+                        <div>
+                            <a href="">
+                                这里，是一般是海水，一半是火焰的北非神秘国度这里,是三毛笔下与荷西共度一生的浪漫之地这里,
+                                是《卡萨布兰卡》电影中男女主角的诀别之处这里，是非洲古老文化和欧洲文明的相遇之地这...
+                            </a>
+                        </div>
+
+                        <div class="word_bottom_box">
+                            <div>
+                                <img src="./imgs/index_img/头像_1.png" alt="">
+                                <span>梦想启航</span>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/浏览.png" alt="">
+                                    <span>64024</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/评论.png" alt="">
+                                    <span>3241</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/时间.png" alt="">
+                                    <span>2019.01.02</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./imgs/index_img/赞.png" alt="">
+                            </div>
+
+                            <div>
+                                <span>40645</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img_b">
+                        <img src="./imgs/index_img/游记分享_4.png" alt="">
+                    </div>
+                    <div class="word">
+                        <div>
+                            <span>听到博斯普鲁斯的忧伤细语一我的伊斯坦布尔小游</span>
+                        </div>
+                        <div>
+                            <a href="">
+                                这条天际线,记录了从东罗马到奥斯曼的漫长历史。“痛苦与幸福 ,生不带来,死不带去，唯黄昏华美而无上。
+                                “--海子蓝色清真寺依然屹立，嘲笑着普经的东征十字军。在那个混乱的夜晚，...
+                            </a>
+                        </div>
+
+                        <div class="word_bottom_box">
+                            <div>
+                                <img src="./imgs/index_img/头像_2.png" alt="">
+                                <span>放飞青春</span>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/浏览.png" alt="">
+                                    <span>53624</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/评论.png" alt="">
+                                    <span>3241</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/时间.png" alt="">
+                                    <span>2019.01.02</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./imgs/index_img/赞.png" alt="">
+                            </div>
+
+                            <div>
+                                <span>52143</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img_b">
+                        <img src="./imgs/index_img/游记分享_5.png" alt="">
+                    </div>
+                    <div class="word">
+                        <div>
+                            <span>印象高棉柬埔寨之旅</span>
+                        </div>
+                        <div>
+                            <a href="">
+                                柬埔赛,这个微笑与疾病，富裕与贫穷;壮观与脏乱并存的国度;
+                                一个去了一次,便念念不忘的国度。我的,印象高棉之旅。
+                            </a>
+                        </div>
+
+                        <div class="word_bottom_box">
+                            <div>
+                                <img src="./imgs/index_img/头像_3.png" alt="">
+                                <span>喝不完的茶</span>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/浏览.png" alt="">
+                                    <span>42924</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/评论.png" alt="">
+                                    <span>3241</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/时间.png" alt="">
+                                    <span>2019.01.02</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./imgs/index_img/赞.png" alt="">
+                            </div>
+
+                            <div>
+                                <span>32143</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img_b">
+                        <img src="./imgs/index_img/游记分享_6.png" alt="">
+                    </div>
+                    <div class="word">
+                        <div>
+                            <span>Maldives@Coco Palm Bodu Hithi完整攻略</span>
+                        </div>
+                        <div>
+                            <a href="">
+                                居然上蜂首了开心得不得了,比起写文章,我还是更善于用照片记录旅行的点滴,谢谢大家支持,
+                                也欢迎去我的空间看其他片子哟白沙,椰树,碧水，木屋,文人描述这里是“失落的天堂，海洋的
+                            </a>
+                        </div>
+
+                        <div class="word_bottom_box">
+                            <div>
+                                <img src="./imgs/index_img/头像_4.png" alt="">
+                                <span>FLI传说</span>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/浏览.png" alt="">
+                                    <span>95624</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/评论.png" alt="">
+                                    <span>3241</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="./imgs/index_img/时间.png" alt="">
+                                    <span>2019.01.02</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./imgs/index_img/赞.png" alt="">
+                            </div>
+
+                            <div>
+                                <span>22153</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="num_selection">
+
+                <!-- 页面选项 -->
+                <div class="xx">
+                    <div><a href="">上一页</a></div>
+                    <div><a href="">1</a></div>
+                    <div><a href="">2</a></div>
+                    <div><a href="">3</a></div>
+                    <div><a href="">4</a></div>
+                    <div><a href="">5</a></div>
+                    <div><a href="">6</a></div>
+                    <div><a href="">7</a></div>
+                    <div><a href="">下一页</a></div>
+                    <div><a href="">到</a></div>
+                    <div><input type="text" class="search"></div>
+                    <div>页/50页</div>
+                    <div><a href="">确定</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右边盒子 -->
+        <div class="right_box">
+            <!-- 右边内容 -->
+            <div class="right_box_1">
+                <div>
+                    <img src="./imgs/index_img/侧边图片_1.png" width="100%" alt="">
+                    <div class="right_box_1_text">
+                        <div class="r_b_t_left">
+                            <span>三亚天域度假酒店</span>
+                            <br>
+                            <a href=""><img src="./imgs/index_img/定位.png" alt="" style="vertical-align: none;">
+                                <span>吉阳区亚龙湾国家...</span></a>
+                        </div>
+                        <div class="r_b_t_right">
+                            <span>￥</span>
+                            <span>500</span>
+                            <span>起</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/index_img/侧边图片_2.png" width="100%" alt="">
+                    <div class="right_box_1_text">
+                        <div class="right_box_1_text">
+                            <div class="r_b_t_left">
+                                <span>三亚国光豪生度假酒店</span>
+                                <br>
+                                <a href=""><img src="./imgs/index_img/定位.png" alt="" style="vertical-align: none;">
+                                    <span>三亚湾路188号...</span></a>
+                            </div>
+                            <div class="r_b_t_right">
+                                <span>￥</span>
+                                <span>500</span>
+                                <span>起</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/index_img/侧边图片_3.png" width="100%" alt="">
+                    <div class="right_box_1_text">
+                        <div class="right_box_1_text">
+                            <div class="r_b_t_left">
+                                <span>三亚天域度假酒店</span>
+                                <br>
+                                <a href=""><img src="./imgs/index_img/定位.png" alt="" style="vertical-align: none;">
+                                    <span>吉阳区亚龙湾国家...</span></a>
+                            </div>
+                            <div class="r_b_t_right">
+                                <span>￥</span>
+                                <span>500</span>
+                                <span>起</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/index_img/侧边图片_4.png" width="100%" alt="">
+                    <div class="right_box_1_text">
+                        <div class="right_box_1_text">
+                            <div class="r_b_t_left">
+                                <span>三亚酒店</span>
+                                <br>
+                                <a href=""><img src="./imgs/index_img/定位.png" alt="" style="vertical-align: none;">
+                                    <span>吉阳区亚龙湾国家...</span></a>
+                            </div>
+                            <div class="r_b_t_right">
+                                <span>￥</span>
+                                <span>500</span>
+                                <span>起</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right_box_2">
+                <div class="trip_box">
+                    <div class="title_box_bottom">
+                        <span>机票</span>
+                    </div>
+                    <div class="abroad_box_bottom">
+                        <div>国内</div>
+                        <div>国际</div>
+                        <div>低价</div>
+                    </div>
+                </div>
+                <div class="travel_box">
+                    <div class="travel_top">
+                        <div class="t_top_1">航程类型</div>
+                        <div class="t_top_2">单程</div>
+                        <div class="t_top_2">往返</div>
+                        <div class="t_top_2">多程</div>
+                    </div>
+                    <div style="clear: both"></div>
+                    <div class="travel_box_1">
+                        <div>
+                            <span>
+                                出发城市
+                            </span>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <span>
+                                出发城市
+                            </span>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <span>
+                                到达城市
+                            </span>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <span>
+                                出发时间
+                            </span>
+                            <input type="date">
+                        </div>
+                        <div>
+                            <span style="color:#BCBCBC;">
+                                返回时间
+                            </span>
+                            <input type="date" style="border:0.8px solid #C5C5C5" disabled>
+                        </div>
+                    </div>
+                    <div class="ballot_box">
+                        <div>
+                            <span>带儿童</span>
+                        </div>
+                        <div>
+                            <span>
+                                带婴儿
+                            </span>
+                        </div>
+                        <div>
+                            <span>儿童/婴儿票</span>
+                        </div>
+                    </div>
+                    <div style="clear: both"></div>
+                    <div class="jipiao">
+                        <b>搜索机票</b>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+
+            <div class="ad">
+                <img src="./imgs/index_img/广告.png" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <div style="clear: both"></div>
+    </div>
+
+    <div class="btm_box">
+        <div class="cooperation">
+            <div>
+                <span> 合作商家</span>
+            </div>
+            <div class="bottom_img">
+                <div class="b_img">
+                    <img src="./imgs/index_img/商家_1.png" alt="">
+                </div>
+                <div class="b_img">
+                    <img src="./imgs/index_img/商家_2.png" alt="">
+                </div>
+                <div class="b_img">
+                    <img src="./imgs/index_img/商家_3.png" alt="">
+                </div>
+                <div class="b_img">
+                    <img src="./imgs/index_img/商家_4.png" alt="">
+                </div>
+                <div class="b_img">
+                    <img src="./imgs/index_img/商家_5.png" alt="">
+                </div>
+                <div class="b_img">
+                    <img src="./imgs/index_img/商家_6.png" alt="">
+                </div>
+                <div class="b_img b_img_1">
+                    <img src="./imgs/index_img/商家_7.png" alt="">
+                </div>
+                <div style="clear: both"></div>
+                <div class="bottom_img_1">
+                    <div class="b_img_2">
+                        <img src="./imgs/index_img/商家_4.png" alt="">
+                    </div>
+                    <div class="b_img_2">
+                        <img src="./imgs/index_img/商家_1.png" alt="">
+                    </div>
+                    <div class="b_img_2">
+                        <img src="./imgs/index_img/商家_7.png" alt="">
+                    </div>
+                    <div class="b_img_2">
+                        <img src="./imgs/index_img/商家_3.png" alt="">
+                    </div>
+                    <div class="b_img_2">
+                        <img src="./imgs/index_img/商家_2.png" alt="">
+                    </div>
+                    <div class="b_img_2">
+                        <img src="./imgs/index_img/商家_5.png" alt="">
+                    </div>
+                    <div class="b_img_2 b_img_1">
+                        <img src="./imgs/index_img/商家_6.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div style="clear: both"></div>
+        <div class="trademark">
+            <div class="footnote_1">
+                <div>
+                    <b>关于我们</b>
+                    <span>游梦简介联系我们合作伙伴</span>
+                </div>
+                <div>
+                    <b>加入穷游</b>
+                    <span>招聘职位</span>
+                </div>
+                <div>
+                    <b>帮助中心</b>
+                    <span>新手上路使用帮助网站地图旅行工具</span>
+                </div>
+                <div>
+                    <b>网站条款</b>
+                    <span>会员条款社区指南版权声明免责声明</span>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+            <div class="footnote_2">
+                <span>
+                    游梦客服中心位于南京市来电显示为025-86859999 025-85080000 、025 85776596、025-69609986或025 -69609987
+
+                    北京游梦国际旅行社有限公司，旅行社业务经营许可证编号L 8l-C100144上海 游梦国际旅行社有限公司， 旅行社业务经营许可证编号L-SH-CJ00107关于我们Investor
+                    Relations联系我们投诉建议广告服务旅游券游梦招聘隐私保护免责声明旅游度假资质主题旅游用户协议网站地图UEIP帮助中心
+
+                    Copyright回2006-2017南京游梦科技有限公司Tuniu.com营业执照CP证苏B2-20130006 I苏ICP备2009060号1南宁旅游网
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+
+
+/* 游记推荐细节 */
+.text2{   
+    height: 40px;
+}
+.text2>span{
+    font-size: 20px;
+}
+.text2>a{
+    font-size: 10px;
+    color: #686868;
+    margin-left: 20px;
+}
+/* 中间导航条 */
+.dhtzj_1{
+    padding: 5px 20px;
+    margin: 0 auto;
+}
+
+.dhtzj_1>input{
+    height: 46px;
+    width: 368px;
+    margin-top: 16px;
+    border-radius: 6px;
+    color: #000000;
+    font-size: 19px;
+    font-family: "微软雅黑"; 
+    text-indent:10px;  /*内容偏移10px*/
+}
+input::-webkit-input-placeholder{ /*WebKit browsers*/
+    font-size: 14px; 
+}
+    
+input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    font-size: 14px;  
+}
+input::-ms-input-placeholder{ /*Internet Explorer*/ 
+    font-size: 14px;   
+}
+.dhtzj_1>a>img{
+   position: absolute;
+   top:20px;
+   right: 22px;
+}
+
+
+/* 内容中间左边选项 */
+.abroad_box_l{
+    width: 95.5%;
+    margin-top: 20px;
+    border-top: 0.8px solid #DBDBDB;
+    /* #DBDBDB  :线的颜色 */
+}
+.abroad_box_l>div{
+    margin: 0px 25px 0px 0px;
+    line-height: 36px;
+    text-align: center;
+    height: 36px;
+    width: 80px;
+    float: left;
+}
+.abroad_box_l>div:hover{
+    color: #fff;
+    background: #43BAB8;
+    border-radius: 3px;
+    cursor:pointer;
+}
+/* 六宫格细节 */
+.star_1_img{
+    width: 251px;
+    height: 171px;
+    overflow: hidden;
+}
+.star_1_img>img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+.star_1_text{
+    padding: 18px 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+    font-size: 10px;
+}
+/* .star_1>img{
+    width: 100%;
+    height: 76%;
+    transition: all 0.5s ease;
+} */
+.title_1{
+    line-height: 83px;
+    transition: all 0.5s ease;
+    height: 83px;
+    width: 83px;
+    text-align: center;
+    border-radius:83px;
+    margin: 0 auto;
+    position: absolute;
+    top:40px;
+    left: 80px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+.star_1_img:hover img{
+    transform: scale(1.2);
+}
+.star_1_img:hover + .title_1{
+    background: rgba(0, 0, 0,0.8);
+}
+
+.title_1>span:nth-child(1){
+    line-height: 50px;
+    font-size: 17px;
+    font-family: "微软雅黑";
+}
+
+/* 出游时间细节 */
+.time_box>div:nth-child(1){
+    font-family: "黑体";
+    font-size: 15px;
+    margin: 0px 0px 5px 25px;
+    color: #000000;
+}
+.time_box>div:nth-child(1)>input{
+    margin-left: 35px;
+}
+.t_box_zt>div{
+    font-family: "黑体";
+    margin: 6px 0px 0px 25px;
+    font-size: 15px;
+    float: left;
+    
+}
+.t_box_zt>div:nth-child(1):hover{
+    cursor: none;
+    color: #000000;
+}
+.t_box_zt>div:hover{
+    cursor:pointer;
+    color: #43BAB8;
+}
+
+/* 九宫格细节 */
+.jgg2{
+    height: 700px;
+    width: 810px;
+}
+
+.grid{
+    height: 220px;
+    width: 251px;
+    margin: 5px 10px 5px 0px;
+    float: left;
+    background: #fff;
+}
+.grid4{
+    width: 251px;
+    height: 40px;
+    text-align: center;
+    line-height: 55px;
+}
+.img1{
+    overflow: hidden;
+    width: 251px;
+}
+.img1>img{
+    width: 100%;
+}
+.box1{
+    width: 820px;
+    /* height: 553px; */
+    margin: 0 auto;
+}
+
+
+
+/* 图文部分 */
+.travel{
+    height: 170px;
+    width: 270px;
+    margin: 0 auto 10px;
+    background: #fff
+}
+.hotelimg{
+    width: 270px;
+    height: 120px;
+    overflow: hidden;
+}
+.hotelimg>img{
+    width: 100%;
+}
+/* 作者部分 */
+.authortext{
+    height: 51px;
+    width: 270px;
+    background: #fff;
+}
+.at_text{
+    height: 27px;
+    line-height: 27px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+.author>div{
+    float: left;
+    font-size: 12px;
+    color: #aaa;
+    margin: 0 10px;
+}
+.author a{
+    color: #FDA022;
+}
+.author img{
+        vertical-align: bottom;
+}
+.author1{
+    margin: 0 5px 0 0;
+}
+.author2{
+    margin: 0 10px;
+}

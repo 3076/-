@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    /* 无序列表 */
+    text-decoration: none;
+    /* 文本的修饰 */
+    line-height: 1;
+    /* 行高 */
+    border: none;
+    /* 边框 */
+    outline: none;
+    /* 设置所有的轮廓属性 */
+    /* vertical-align: bottom; */
+    /* 设置一个元素的垂直对齐方式 */
+}
+img{
+    vertical-align: middle;
+}
+.bar>a{
+    color: #fff;
+}
+
+body {
+    background: #F3F3F3;
+    /* transform: scale(1); */
+    /* overflow-x: hidden; */
+}
+
+/* 头部样式 */
+.head_box {
+    margin: 0 auto;
+    height: 80px;
+    background: #43BAB8;
+    /*主色调 */
+}
+
+
+
+
+
+
+/* 内容中间 */
+.middle_box {
+    margin: 0 auto;
+    width: 1080px; 
+    /* background: rgb(245, 194, 99); */
+}
+/* 游记分享样式 */
+.left_op_1 {
+    height: 77px;
+    /* background: rgb(134, 87, 43); */
+    margin-top: 15px;
+}
+
+/* 底部内容 */
+.bottom_box {
+    height: 100%;
+    /* background: rgb(191, 255, 117); */
+}
+
+.bottom_box>div {
+    margin-top: 20px;
+    width: 775px;
+    height: 171px;
+    background: #fff;
+}
+
+
+/* 下部数字选择 */
+.num_selection {
+    width: 775px;
+    /* margin-top: 20px; */
+    height: 66px;
+    position: relative;
+    /* background: rgb(166, 255, 106); */
+}
+
+
+/* 右边内容 */
+.right_box {
+    width: 25%;
+    height: 100%;
+    /* background: rgb(253, 176, 103); */
+    float: left;
+}
+
+
+
+/* 第二个盒子 */
+.right_box_2 {
+    height: 538px;
+    width: 100%;
+    background: #fff;
+    margin-top: 50px;
+}
+
+/* 广告样式 */
+.ad {
+    width: 100%;
+    /* background: rgb(250, 103, 243); */
+}
+
+
+/* 底部样式 */
+.btm_box {
+    height: 470px;
+    width: 100%;
+    /* margin-top: 1800px; */
+    /* background: rgb(236, 76, 137); */
+}
+
+
