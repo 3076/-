@@ -44,7 +44,7 @@ body {
 .bar{
     /* margin: 0 30px; */
     margin-top: 20px;
-    padding: 10px 0;
+    padding: 6px 0;
     text-align: center;
     /* line-height: 18px; */
     /* background: #000000; */
@@ -245,8 +245,6 @@ body{
 /* <!-- 左边大盒子 --> */
 .leftbox {
     width: 805px;
-    /* height: 641px; */
-    /* background: #fff; */
 }
 .leftbox>div:nth-child(1){
     background: #fff;
@@ -255,8 +253,9 @@ body{
 .picture {
     height: 296px;
     width: 805px;
-    background: rgb(82, 8, 60);
     position: relative;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .Absolute{
     height: 27px;
@@ -269,7 +268,46 @@ body{
     bottom: 10px;
     font-size: 15px;
     padding: 6px 0 0 3px;
-    z-index: 99;
+    z-index: 100;
+}
+
+.advs{
+    width: 2415px;
+    height: 296px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    transition: all 0.5s;
+}
+.advs li{
+    width: 805px;
+    height: 296px;
+    float: left;
+    cursor: pointer;
+    margin: 0;
+}
+.advs>li img{
+    width: 100%;
+    height: 100%;
+}
+.icons{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    right: 13px;
+    top: 60px;
+    list-style: none;
+}
+.icons>li{
+    width: 100%;
+    height: 100%;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.icons img{
+    width: 100%;
+    height: 100%;
 }
 .wordtext {
     width: 770px;
@@ -289,17 +327,14 @@ body{
     height: 170px;
     margin: 0 auto;
 }
-
 .advice>div {
     float: left;
     margin-right: 20px;
 }
-
 .xiaobox1 {
     width: 230px;
     height: 170px;
 }
-
 .navbox1 {
     height: 45px;
     line-height: 23px;
@@ -396,6 +431,7 @@ body{
 .kuang>textarea {
     width: 632px;
     height: 92px;
+    resize:none;
 }
 /* <!-- 假相机 --> */
 .upload{
@@ -457,6 +493,11 @@ button{
     margin: 0 auto;
     border-bottom: 1px solid #aaa;
 }
+.deletbtn{
+    color: red;
+    margin-left: 10px;
+
+}
 /* <!-- 评论区发表的图片 --> */
 .userpicture{
     width: 633px;
@@ -481,10 +522,11 @@ button{
 }
  /* <!-- 底下页面选项 --> */
  .ymxx{
-     margin-top: 20px;
+     margin-top: 30px;
     height: 30px;
      width: 805px;
      background: #fff;
+     padding-bottom: 25px; 
  }
 .xx{
     height: 30px;
@@ -700,16 +742,42 @@ input{
 .footnote_1>div>span{
     color: #000000;
     font-size: 15px;
-    font-family: "黑体";
+    font-family: "宋体";
     line-height: 25px;
 }
 .footnote_2{
     color: #2A807F;
-    font-size: 8px;
     line-height: 20px;
     text-align: center;
-    width: 665px;
+    width: 720px;
     height: 100px;
     /* background: #000000; */
     margin: 25px auto 0px;
+}
+.footnote_2>span{
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+/* 回到顶部 */
+.back_box{
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 200;
+    background: rgba(32, 192, 179, 0.575);
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    /* top: -500px;
+    right: -100px; */
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+.back_box>div{
+    margin: 0px 2.5px 0px 0px;
+}
+.back_box>div>img{
+    width: 80%;
+    height: 80%;
 }

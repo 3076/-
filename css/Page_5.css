@@ -44,7 +44,7 @@ body {
 .bar{
     /* margin: 0 30px; */
     margin-top: 20px;
-    padding: 10px 0;
+    padding: 6px 0;
     text-align: center;
     color: #fff;
     float: left;
@@ -138,11 +138,13 @@ ul>li{
    right: 49px;
 }
 .bgimg{
-    height: 521px;
+    /* height: 521px; */
+    height: 545px;
     width: 100%;
     background: rgb(126, 255, 133);
     position: relative;
-    background: url(../imgs/第五页/bg.png) no-repeat
+    background: url(../imgs/第五页/bg.png) no-repeat;
+    background-size: 100% 100%;
 }
 /* <!-- 用户部分 --> */
 .usertop{
@@ -254,6 +256,11 @@ ul>li{
     border-bottom: 1px solid rgb(255, 255, 255);
     padding-bottom: 40px;
 }
+.userwords_1{
+    background: #43BAB8;
+    height:400px;
+    margin: 0 auto;
+}
 /* <!-- 正文底部 --> */
 .userwordbottom{
     width: 501px;
@@ -304,6 +311,7 @@ ul>li{
 textarea{
     width: 606px;
     height: 66px;
+    resize:none;
 }
 button{
     background: #43BAB8;
@@ -511,16 +519,42 @@ button{
 .footnote_1>div>span{
     color: #000000;
     font-size: 15px;
-    font-family: "黑体";
+    font-family: "宋体";
     line-height: 25px;
 }
 .footnote_2{
     color: #2A807F;
-    font-size: 8px;
     line-height: 20px;
     text-align: center;
-    width: 665px;
+    width: 720px;
     height: 100px;
     /* background: #000000; */
     margin: 25px auto 0px;
+}
+.footnote_2>span{
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+/* 回到顶部 */
+.back_box{
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 20;
+    background: rgba(32, 192, 179, 0.575);
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    /* top: -500px;
+    right: -100px; */
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+.back_box>div{
+    margin: 0px 2.5px 0px 0px;
+}
+.back_box>div>img{
+    width: 80%;
+    height: 80%;
 }

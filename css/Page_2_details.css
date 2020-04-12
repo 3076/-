@@ -47,6 +47,7 @@ input::-ms-input-placeholder{ /*Internet Explorer*/
 
 /* 内容中间左边选项 */
 .abroad_box_l{
+    font-size: 16px;
     width: 95.5%;
     margin-top: 20px;
     border-top: 0.8px solid #DBDBDB;
@@ -103,11 +104,11 @@ input::-ms-input-placeholder{ /*Internet Explorer*/
     background: rgba(0, 0, 0, 0.4);
     color: #fff;
 }
-.star_1_img:hover img{
-    transform: scale(1.2);
+.star_2:hover img{
+    transform: scale(1.1);
 }
-.star_1_img:hover + .title_1{
-    background: rgba(0, 0, 0,0.8);
+.star_2:hover .title_1{
+    background: rgba(0, 0, 0,0.7);
 }
 
 .title_1>span:nth-child(1){
