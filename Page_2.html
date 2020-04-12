@@ -12,6 +12,27 @@
     <link rel="stylesheet" href="./css/Page_2_details.css">
     <link rel="stylesheet" href="./css/swiper-4.2.6.min.css">
     <script src="./js/swiper-4.2.6.min.js"></script>
+    <style>
+        /* 轮播图分页器样式 */
+        .swiper-pagination-bullet {
+            width: 23px;
+            height: 23px;
+            border-radius: 50%;
+            display: inline-block;
+            /* opacity: .5; */
+            cursor: pointer;
+            /* border: 2px solid #979797; */
+            transition: all .05s ease-in;
+        }
+
+        .ubolt-black {
+            background: #0E0E0E;
+        }
+
+        .ubolt-white {
+            background: #D8D8D8;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,18 +46,18 @@
             <!-- 导航条内容 -->
             <div class="bar_box">
                 <div class="bar">
-                    <a href=""> <b>首页</b> </a>
+                    <a href="./index.html"> <b>首页</b> </a>
 
                 </div>
 
 
                 <div class="bar">
-                    <a href=""> <b>目的地</b> </a>
+                    <a href="./Page_2.html"> <b>目的地</b> </a>
 
                 </div>
 
                 <div class="bar">
-                    <a href=""><b>游记攻略</b> </a>
+                    <a href="./Page_5.html"><b>游记攻略</b> </a>
 
                 </div>
 
@@ -69,11 +90,11 @@
     <!-- 轮播图 -->
     <div class="Rotation_box">
 
-        <div class="swiper-container ">
+        <div class="swiper-container " id="s_c1">
             <div class="swiper-wrapper  viewbox">
-                <div class="swiper-slide  "><img src="./imgs/index_img/轮播图_1.png" height="100%" width="100%" alt="">
+                <div class="swiper-slide  "><img src="./imgs/index_img/轮播图_4.png" height="100%" width="100%" alt="">
                 </div>
-                <div class="swiper-slide"><img src="./imgs/index_img/轮播图_1.png" height="100%" width="100%" alt=""></div>
+                <div class="swiper-slide"><img src="./imgs/index_img/轮播图_4.png" height="100%" width="100%" alt=""></div>
                 <div class="swiper-slide"><img src="./imgs/index_img/轮播图_1.png" height="100%" width="100%" alt=""></div>
             </div>
             <div class="swiper-pagination"></div>
@@ -115,7 +136,9 @@
                     <a href="">更多&nbsp;></a>
                 </div>
                 <div class="abroad_box_l">
-                    <div>玩转日本</div>
+                    <div>
+                        <a href="./Page_3.html" style="color:#000;">玩转日本</a>
+                    </div>
                     <div>滑雪圣地</div>
                     <div>魅力都市</div>
                     <div>唯美小镇</div>
@@ -142,112 +165,344 @@
         <!-- 六宫格div -->
         <div class="left_box">
 
-            <div class="c_1">
+
+            <div style="height:500px">
+                <div class="swiper-container s_c">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/大阪.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>大阪</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>大阪城天守閣、大阪城公回、日本坏球影城</span>
+                                </div>
+                            </div>
 
 
-                <div class="star_1">
-                    <a href="">
-                        <div class="star_1_img">
-                            <img src="./imgs/Page_2_imgs/大阪.jpg" alt="">
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/富士山.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>富士山</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>富士山、河口湖、忍野八海、河口湖站</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/京都.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>京都</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>清水寺、金溷寺、伏几稻荷大社、花兄小路</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/根箱之湖.png" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>根箱</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>芦之湖、大涌谷、箱根神社、箱根強罗公园</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/札幌.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>札幌</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>大通公园、白色恋人公回、札幌鬼祝塔</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/东京塔.png" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>东京</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>浅草寺、东京塔、涩谷区、明治神官、东京</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="title_1">
-                            <span>大阪</span>
+                        <div class="swiper-slide">
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/大阪.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>大阪</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>大阪城天守閣、大阪城公回、日本坏球影城</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/富士山.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>富士山</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>富士山、河口湖、忍野八海、河口湖站</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/京都.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>京都</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>清水寺、金溷寺、伏几稻荷大社、花兄小路</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/根箱之湖.png" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>根箱</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>芦之湖、大涌谷、箱根神社、箱根強罗公园</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/札幌.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>札幌</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>大通公园、白色恋人公回、札幌鬼祝塔</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/东京塔.png" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>东京</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>浅草寺、东京塔、涩谷区、明治神官、东京</span>
+                                </div>
+                            </div>
                         </div>
-                    </a>
-                    <div class="star_1_text">
-                        <span>大阪城天守閣、大阪城公回、日本坏球影城</span>
+                        <div class="swiper-slide">
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/大阪.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>大阪</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>大阪城天守閣、大阪城公回、日本坏球影城</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/富士山.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>富士山</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>富士山、河口湖、忍野八海、河口湖站</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/京都.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>京都</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>清水寺、金溷寺、伏几稻荷大社、花兄小路</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/根箱之湖.png" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>根箱</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>芦之湖、大涌谷、箱根神社、箱根強罗公园</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/札幌.jpg" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>札幌</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>大通公园、白色恋人公回、札幌鬼祝塔</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="star_1">
+                                <a href="">
+                                    <div class="star_2">
+                                        <div class="star_1_img">
+                                            <img src="./imgs/Page_2_imgs/东京塔.png" alt="">
+                                        </div>
+                                        <div class="title_1">
+                                            <span>东京</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="star_1_text">
+                                    <span>浅草寺、东京塔、涩谷区、明治神官、东京</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-
-
-                <div class="star_1">
-                    <a href="">
-                        <div class="star_1_img">
-                            <img src="./imgs/Page_2_imgs/富士山.jpg" alt="">
-                        </div>
-                        <div class="title_1">
-                            <span>富士山</span>
-                        </div>
-                    </a>
-                    <div class="star_1_text">
-                        <span>富士山、河口湖、忍野八海、河口湖站</span>
-                    </div>
-                </div>
-
-
-
-                <div class="star_1">
-                    <a href="">
-                        <div class="star_1_img">
-                            <img src="./imgs/Page_2_imgs/京都.jpg" alt="">
-                        </div>
-                        <div class="title_1">
-                            <span>京都</span>
-                        </div>
-                    </a>
-                    <div class="star_1_text">
-                        <span>清水寺、金溷寺、伏几稻荷大社、花兄小路</span>
-                    </div>
-                </div>
-
-
-
-                <div class="star_1">
-                    <a href="">
-                        <div class="star_1_img">
-                            <img src="./imgs/Page_2_imgs/根箱之湖.png" alt="">
-                        </div>
-                        <div class="title_1">
-                            <span>根箱</span>
-                        </div>
-                    </a>
-                    <div class="star_1_text">
-                        <span>芦之湖、大涌谷、箱根神社、箱根強罗公园</span>
-                    </div>
-                </div>
-
-
-
-                <div class="star_1">
-                    <a href="">
-                        <div class="star_1_img">
-                            <img src="./imgs/Page_2_imgs/札幌.jpg" alt="">
-                        </div>
-                        <div class="title_1">
-                            <span>札幌</span>
-                        </div>
-                    </a>
-                    <div class="star_1_text">
-                        <span>大通公园、白色恋人公回、札幌鬼祝塔</span>
-                    </div>
-                </div>
-
-
-
-                <div class="star_1">
-                    <a href="">
-                        <div class="star_1_img">
-                            <img src="./imgs/Page_2_imgs/东京塔.png" alt="">
-                        </div>
-                        <div class="title_1">
-                            <span>东京</span>
-                        </div>
-                    </a>
-                    <div class="star_1_text">
-                        <span>浅草寺、东京塔、涩谷区、明治神官、东京</span>
-                    </div>
-                </div>
-
-                <div style="clear: both"></div>
-                <!-- 六宫格下方选项 -->
-                <div class="op_c">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
+            <div style="clear: both"></div>
+            <!-- 六宫格下方选项 -->
+            <!-- <div class="op_c">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> -->
+
 
             <div class="left_op_1">
                 <div class="left_op">
@@ -567,16 +822,18 @@
                     北京游梦国际旅行社有限公司，旅行社业务经营许可证编号L 8l-C100144上海 游梦国际旅行社有限公司， 旅行社业务经营许可证编号L-SH-CJ00107关于我们Investor
                     Relations联系我们投诉建议广告服务旅游券游梦招聘隐私保护免责声明旅游度假资质主题旅游用户协议网站地图UEIP帮助中心
 
-                    Copyright回2006-2017南京游梦科技有限公司Tuniu.com营业执照CP证苏B2-20130006 I苏ICP备2009060号1南宁旅游网
+                    Copyright回2006-2017南京游梦科技有限公司Tuniu.com|营业执照|ICP证苏B2-20130006|苏ICP备2009060号|南宁旅游网
                 </span>
             </div>
         </div>
     </div>
 
-
+    <div class="back_box" onclick="toTop()">
+            <div><img src="./imgs/回到顶部.png" alt=""></div>
+    </div>
 
     <script src="./js/index.js"></script>
-
+    <script src="./js/Back.js"></script>
 </body>
 
 </html>
